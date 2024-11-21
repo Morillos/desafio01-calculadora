@@ -11,14 +11,16 @@ export const Container = styled.div`
 
 export const Content = styled.div`
     background-color: #FFF;
-    padding: 2px;
+    padding: 8px;
     width: 50%;
+    border-radius: 10px;
+    background-color: lightgoldenrodyellow;
 `
 export const Row = styled.div`
     display: flex;
     flex-direction: row;
-    gap: 2px;
+    gap: 4px;
     justify-content: space-between;
     align-items: center;
-    margin: 2px 0;
+    margin: 4px 0;
 `
